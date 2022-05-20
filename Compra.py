@@ -7,5 +7,5 @@ class Compra:
         self.ppu = ppu
         self.total = self.cantidad * self.ppu
 
-    def get_detalles_compra():
-        print()
+    def get_detalles_compra(self):
+        print(self.codigo+"\t"+self.nombre+"\t"+str(self.cantidad)+"\t"+str(self.ppu)+"\t"+str(self.total))
